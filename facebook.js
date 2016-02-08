@@ -1,10 +1,8 @@
 
 $( document ).ready(function() {
 
-console.log("here");
-
 var html = '<div id="fb-root"></div><div class="fb-like" data-href="https://www.facebook.com/Guesthouse-Web-1679657215585362/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>';
-$('body').append(html); 
+$('body').prepend(html); 
 
 (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
